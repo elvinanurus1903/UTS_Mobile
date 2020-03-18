@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dashboard">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="212dp"
+        android:text="Ini Dashboard"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent" />
+    <Button
+        android:background="#6495ED"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tambah"
+        android:textColor="#ffffff"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="Tambah Data"
+        />
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/lihat"
+        android:background="#008B8B"
+        android:textColor="#ffffff"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="Lihat Data"
+        />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="LogOut"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</LinearLayout>
